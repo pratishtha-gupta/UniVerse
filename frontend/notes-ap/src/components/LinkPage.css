@@ -1,0 +1,56 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .upload-section {
+    margin-bottom: 20px;
+  }
+  
+  .links-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .link-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .link-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .link-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .link-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .delete-button,
+  .go-button {
+    cursor: pointer;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .delete-button {
+    background-color: #ff5252;
+    color: white;
+  }
+  
+  .go-button {
+    background-color: #2196f3;
+    color: white;
+  }
+  

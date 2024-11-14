@@ -1,0 +1,11 @@
+.study-card {
+    background-color: #f4f4f4;
+    padding: 40px;
+    border-radius: 10px;
+    border: solid;
+  }
+
+  .study-name {
+    font-size: 23px;
+    font-weight: semi-bold;
+  }
